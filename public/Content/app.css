@@ -1,0 +1,56 @@
+html{
+
+    height:100%;
+    
+}
+body{
+height:100%;
+width:100%;
+}
+.Homepage{
+margin:auto;
+
+position: block;
+width:45%;
+height:30%;
+border-radius: 25px;
+background: linear-gradient(151deg, #ab15ff, #0075fd, #2bffee);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 0s ease infinite;
+-moz-animation: AnimationName 0s ease infinite;
+animation: AnimationName 0s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+0%{background-position:53% 0%}
+50%{background-position:48% 100%}
+100%{background-position:53% 0%}
+}
+@-moz-keyframes AnimationName {
+0%{background-position:53% 0%}
+50%{background-position:48% 100%}
+100%{background-position:53% 0%}
+}
+@keyframes AnimationName {
+0%{background-position:53% 0%}
+50%{background-position:48% 100%}
+100%{background-position:53% 0%}
+}
+.Aboutme{
+    margin:auto;
+    background-color: #5A5A5A;
+    position: block;
+    bottom:3%;
+    width:45%;
+    height:30%;
+    border-radius: 25px;
+
+}
+
+.profile{
+width:20%;
+height:50%;
+border-radius:50%;
+
+}
