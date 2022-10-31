@@ -8,57 +8,21 @@
   <h1>Welcome to my <%=title%> page </h1>
 
 <!--Home page section-->
-<section class=Homepage>
-<img class= "profile" src="/Assets/images/profile.png"/>
-</section>
+<%- include ('partials/Homepage.ejs') %>
 
 
+<!-- About me -->
+<%- include ('partials/Aboutme.ejs') %>
 
-<section class=Aboutme>
-<article>
-<h1 id="AboutmeTitle">Welcome to my Portfolio!</h1>
-<p id="AboutmeText">This section of my website displays all the information about me!
-Besides school works, I like to play video games and soccer.
-Here is a video about me as well!</p>
-</article>
+<!-- Project Page -->
+<%- include ('partials/ProjectPage.ejs') %>
 
-
-<video controls>
-<source src="/Assets/videos/intro.mp4" type=video/mp4/>
-</video>
-
-</section>
-
-<section id =ProjectPage>
-<article>
-<h1 id="ProjectPageTitle">Here are my Projects!</h1>
-<p id="ProjectPageText">This section of my website shows all my programming projects! <br>Feel free to check them out!</p>
-<ul>
-    <li><a href="https://sadrake.netlify.app/">My First Website for Web And Script Class</a></li> <br>
-    <li><a href="https://github.com/SadraKe1/Labs-Projects">My Rock Paper Scissors Project for Javascript</a></li><br>
-    <li><a href="https://www.instagram.com/s.k_training12/">My social media brand for instagram</a></li><br>
-    <li><a href="https://github.com/SadraKe1">My Github</a></li>
-</ul>
-</article>
-</section>
+<!-- Contact me-->
+<%- include ('partials/Contact.ejs') %>
+<!-- Footer -->
+<%- include ('partials/footer.ejs') %>
 
 
-<section id=Contactme>
-
-
-</section>
-
-
-
-
-<nav class="navbar fixed-bottom navbar-dark bg-dark">
-  <h6 class=" navbar-text"> &copy; Copyright 2022. All Rights reserved. </h6>
-
-
-
-    <script src = "/Scripts/app.js">
-    <script src = "/bootstrap/dist/js/bootstrap.min.js">
-    <script src="/jquery/dist/jquery.min.js">
 
     
   </body>

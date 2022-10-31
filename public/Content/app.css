@@ -1,11 +1,18 @@
+
+
 html{
 
     height:100%;
     width:100%;
+    
 }
 body{
+ background-color: #909590 !important;
+
+    overflow-y: scroll;
 height:100%;
 width:100%;
+
 }
 .Homepage{
 margin:auto;
@@ -48,6 +55,14 @@ animation: AnimationName 0s ease infinite;
 
 }
 
+.navbar, .navbar-expand-lg{
+height:8%;
+font-size:120%;
+}
+.navbar-brand{
+font-size:160% !important;
+
+}
 .profile{
 width:20%;
 height:50%;
@@ -62,15 +77,21 @@ text-align: center;
 
 }
 
-video{
+iframe{
 position: relative;
-width:36%;
-height:54%;
+width:38%;
+height:57%;
 left:32%;
 
 }
 
-#ProjectPage{
+.navbar , .container-fluid{
+
+
+    color:#04053f
+}
+
+.ProjectPage{
     margin:auto;
     background-color: #2a2828;
     position: block;
@@ -80,6 +101,8 @@ left:32%;
     border-radius: 25px;
 
 }
+
+
 #ProjectPageText,#ProjectPageTitle{
     font-size: 150%;
     color: rgb(176, 180, 185);
@@ -99,13 +122,55 @@ text-decoration: dashed;
 
 }
 
-#Contatme{
+.Contact{
     margin:auto;
     background-color: #2a2828;
     position: block;
     margin-top:1.1%;
-    width:45%;
-    height:37%;
+    width:55%;
+    height:80%;
     border-radius: 25px;
 
 }
+#navbarbottom{
+
+    top:3%;
+
+
+}
+
+
+#ContactmeTitle{
+    font-size: 260%;
+    color: rgb(176, 180, 185);
+    text-align: center;
+
+}
+
+#ContactHeader{
+    color:#C5FFFD;
+    font-size: 250%;
+    margin-left:35%;
+    position:absolute;
+    
+    }
+    input[type=submit]:hover{
+        cursor:pointer;
+        color:#8B8BAE;
+        
+            }
+
+            input[type=text],#Description, input[type=submit] {
+                color:white;
+                float:center;
+                width:33%;
+                padding: 12px;
+                font-size: 20px;
+                border: 4px solid rgb(208, 187, 228);
+                 border-radius:9px;
+                box-sizing: content-box;
+                color:white;
+                background-color: black;
+                display: block;
+                margin:auto;
+                    }           
