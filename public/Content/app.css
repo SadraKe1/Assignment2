@@ -39,11 +39,11 @@ animation: AnimationName 0s ease infinite;
 }
 .Aboutme{
     margin:auto;
-    background-color: #5A5A5A;
+    background-color: #2a2828;
     position: block;
-    bottom:3%;
+    margin-top:1.1%;
     width:45%;
-    height:30%;
+    height:37%;
     border-radius: 25px;
 
 }
@@ -52,5 +52,20 @@ animation: AnimationName 0s ease infinite;
 width:20%;
 height:50%;
 border-radius:50%;
+
+}
+
+#AboutmeTitle,#AboutmeText{
+font-size: 150%;
+color: rgb(176, 180, 185);
+text-align: center;
+
+}
+
+video{
+position: relative;
+width:36%;
+height:54%;
+left:32%;
 
 }
