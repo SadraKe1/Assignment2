@@ -1,7 +1,7 @@
 html{
 
     height:100%;
-    
+    width:100%;
 }
 body{
 height:100%;
@@ -67,5 +67,45 @@ position: relative;
 width:36%;
 height:54%;
 left:32%;
+
+}
+
+#ProjectPage{
+    margin:auto;
+    background-color: #2a2828;
+    position: block;
+    margin-top:1.1%;
+    width:45%;
+    height:37%;
+    border-radius: 25px;
+
+}
+#ProjectPageText,#ProjectPageTitle{
+    font-size: 150%;
+    color: rgb(176, 180, 185);
+    text-align: center;
+
+
+}
+
+a:link{
+text-decoration: none;
+color:rgb(149, 189, 238);
+font-size: 130%;
+}
+
+a:hover{
+text-decoration: dashed;
+
+}
+
+#Contatme{
+    margin:auto;
+    background-color: #2a2828;
+    position: block;
+    margin-top:1.1%;
+    width:45%;
+    height:37%;
+    border-radius: 25px;
 
 }
